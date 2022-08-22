@@ -3,8 +3,7 @@ package athletes;
 public class MMArtistPro extends MMArtist{
 
     public MMArtistPro (String name, int record) {
-        super(name);
-        super(record);
+        super(name, record);
     }
 
     @Override

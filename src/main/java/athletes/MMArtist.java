@@ -2,7 +2,7 @@ package athletes;
 
 public class MMArtist extends Athlete{
 
-        int record;
+        public int record;
 
     public MMArtist (String name, int record){
         super(name);

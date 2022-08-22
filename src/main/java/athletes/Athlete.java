@@ -3,7 +3,7 @@ package athletes;
 public  abstract class Athlete {
 
     public String name;
-//    as we know out athletes class will become abstract, we don't
+//    as we know our athletes class will become abstract, we don't
 //    need a String for different sports they play, as they'll have
 //    their own individual classes.
     private boolean fit;

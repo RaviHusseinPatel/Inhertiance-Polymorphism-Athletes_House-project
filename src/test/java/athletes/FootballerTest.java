@@ -12,7 +12,7 @@ public class FootballerTest {
 
     @BeforeEach
 
-    public void setUp() {footballer= new Footballer("messi", true)}
+    public void setUp() {footballer= new Footballer("messi", true);}
 
     @Test
     public void canTalkToCoach(){
