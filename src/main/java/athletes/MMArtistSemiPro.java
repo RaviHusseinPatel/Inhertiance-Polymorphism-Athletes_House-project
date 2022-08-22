@@ -1,4 +1,6 @@
-package athletes;
-
-public class MMArtistSemiPro {
-}
+//package athletes;
+//
+//public class MMArtistSemiPro extends MMArtist{
+//
+//
+//}
