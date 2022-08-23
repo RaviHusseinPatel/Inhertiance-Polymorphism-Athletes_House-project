@@ -12,7 +12,7 @@ public class FootballerTest {
 
     @BeforeEach
 
-    public void setUp() {footballer= new Footballer("messi", true);}
+    public void setUp() {footballer= new Footballer("messi", true, true);}
 
     @Test
     public void canTalkToCoach(){
@@ -21,5 +21,10 @@ public class FootballerTest {
         assertEquals (expected, actual);
     }
 
+    @Test public void canCallForBall(){
+        String expected= "pass the ball";
+        String actual = footballer.callForBall();
+        assertEquals(expected,actual);
+    }
 
 }

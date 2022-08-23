@@ -10,7 +10,7 @@ public  abstract class Athlete {
 
     // After creating our variables, we create a constructor:
 
-    public Athlete (String name){
+    public Athlete (String name, boolean fit){
         this.name=name;
         this.fit=true;
     }

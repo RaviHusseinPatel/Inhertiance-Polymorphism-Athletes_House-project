@@ -2,8 +2,8 @@ package athletes;
 
 public class MMArtistPro extends MMArtist{
 
-    public MMArtistPro (String name, int record) {
-        super(name, record);
+    public MMArtistPro (String name, boolean fit, int record) {
+        super(name,fit, record);
     }
 
     @Override

@@ -4,8 +4,8 @@ public class MMArtist extends Athlete{
 
         public int record;
 
-    public MMArtist (String name, int record){
-        super(name);
+    public MMArtist (String name, boolean fit, int record){
+        super(name, fit);
         this.record= record;
 
     }

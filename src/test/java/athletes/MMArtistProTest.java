@@ -12,7 +12,7 @@ public class MMArtistProTest {
 
     @BeforeEach
 
-    public void setUp() {mmArtistPro= new MMArtistPro("jones", 23-0);}
+    public void setUp() {mmArtistPro= new MMArtistPro("jones", true, 23-0);}
 
     @Test
     public void canTalkToCoach(){
